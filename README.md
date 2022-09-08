@@ -4,8 +4,7 @@
 The first thing to do is to clone the repository:
 
 ```sh
-$ git clone https://github.com/setu-023/Ecommerce-APIs.git
-$ cd sample-django-app
+$ git clone https://github.com/setu-023/MK-Tech
 ```
 
 Create a virtual environment to install dependencies in and activate it:

@@ -11,7 +11,7 @@ class Order(models.Model):
     name = models.CharField(max_length = 255)
     description = models.TextField(null = True)
     customer_id = models.ForeignKey(Customer, related_name = "customer_id", on_delete = models.CASCADE)
-    status = models.CharField(max_length=50)
+    status = models.CharField(max_length=50, default = 'placed')
 
     created_at = models.DateField(auto_now_add = True)
     updated_at  = models.DateField(auto_now = True)
